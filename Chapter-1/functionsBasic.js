@@ -50,3 +50,44 @@ function studentDetail() {
 }
 
 console.log("----------", studentDetail());
+/*
+PRACTISED BY DEEPAK
+*/
+
+console.log("main branch")
+let num4 = 10;
+let num5 = 5;
+
+let sum = num4 + num5;
+let difference = num4 - num5;
+let product = num4 * num5;
+let quotient = num4 / num5;
+
+console.log("Sum:", sum);
+console.log("Difference:", difference);
+console.log("Product:", product);
+console.log("Quotient:", quotient);
+/*
+2.FUNCTION
+*/
+let grade = 75;
+
+if (grade >= 90) {
+    console.log("A");
+} else if (grade >= 80) {
+    console.log("B");
+} else if (grade >= 70) {
+    console.log("C");
+} else {
+    console.log("F");
+}
+
+/*
+3,fuction
+*/
+function NAMASTE(name) {
+  console.log("Hello, " + name + "!");
+}
+
+
+NAMASTE("ANKIT BHAIYA");
