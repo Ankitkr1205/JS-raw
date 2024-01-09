@@ -28,25 +28,27 @@ when it is invoked or called
 local varible
 */
 
-const num1 = 75;
-const num2 = 71;
-console.log("I am global", "num1", num1, "num2", num2);
+// const num1 = 75;
+// const num2 = 71;
+// console.log("I am global", "num1", num1, "num2", num2);
 
-function addAnyNumber(num1, num2) {
-  console.log("I am local", "num1", num1, "num2", num2);
-  return num1 * num2;
-}
+// function addAnyNumber(num1, num2) {
+//   console.log("I am local", "num1", num1, "num2", num2);
+//   return num1 * num2;
+// }
 
-const result = addAnyNumber(2, 3); //function invoke or calling
-console.log("Ans of multiply is :", result);
-document.write("Ans of multiply is :", result);
+// const result = addAnyNumber(2, 3); //function invoke or calling
+// console.log("Ans of multiply is :", result);
+// document.write("Ans of multiply is :", result);
 
-function studentDetail() {
-  const name1 = "Ankit";
-  const age = 26;
-  const developer = true;
-  const myprofile = "My name is " + name1 + age + developer;
-  return myprofile;
-}
+// function studentDetail() {
+//   const name1 = "Ankit";
+//   const age = 26;
+//   const developer = true;
+//   const myprofile = "My name is " + name1 + age + developer;
+//   return myprofile;
+// }
 
-console.log("----------", studentDetail());
+// console.log("----------", studentDetail());
+
+
